@@ -2,31 +2,14 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/01.jpg'
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
+import Chips from './../components/Topstrip'
+import Jobs from './../components/Jobs'
+import LastTV from './../components/LastTV'
 
-import full01 from '../assets/images/fulls/01.jpg'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
-
-const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
-];
+// <div className="icons" style={{display:"inline"}}><span className="icon fa-space-shuttle"></span></div>
+// <div className="icons" style={{display:"inline"}}><span className="icon fa-grav"></span></div>
+// <div className="icons" style={{display:"inline"}}><span className="icon fa-briefcase"></span></div>
 
 class HomeIndex extends React.Component {
 
@@ -43,70 +26,80 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
+                <section id="one">
+
+                    <header className="major">
+
+                            <h2 >
+                                About <br/>  
+                            </h2>
+                            
+                            <div style={{display: "block !important"}}>
+                            <h4>
+                                I'm a "passionately curious" person, always carrying a book, just in case. <br />
+                                The above goes well with my tendency to be data-informed. 
+                                
+                                <br/><br/>
+                                Since I was a kid, learning new things was exciting. I use to wait anxiously for the monthly popular science magazine, which never let down with unusual technological solutions for various problems. <br/><br/>
+
+                                Presently im looking for a new environment to utilize my diverse set of skills. <br/>
+                                An ideal fit will be a blend of innovation, great people, cool tech, data-orientation, continually growing & improving. <br/><br/>
+
+                                For non-professional fun, I love spending time with my amazing wife, traveling, meeting friends, reading, watching crime/sci-fi TV series/movies, working out, coding. <br/> 
+                            </h4>
+                            </div>
+                            
+                    </header>
+
+                    </section>
+
                     <section id="one">
+
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+
+                            <h2>
+                                Strengths <br/>  
+                            </h2>
+
+                            <Chips />
+                            
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
+
                     </section>
 
-                    <section id="two">
-                        <h2>Recent Work</h2>
+                <section id="one">
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
-                            source,
-                            thumbnail,
-                            caption,
-                            description
-                        }))} />
+                    <header className="major">
 
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
-                    </section>
+                        <h2 >
+                            Experience <br/>  
+                        </h2>
 
-                    <section id="three">
-                        <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-                        <div className="row">
-                            <div className="8u 12u$(small)">
-                                <form method="post" action="#">
-                                    <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                    </div>
-                                </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
-                            </div>
-                            <div className="4u 12u$(small)">
-                                <ul className="labeled-icons">
-                                    <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
+                        <Jobs />
+                            
+                    </header>
 
-                </div>
+                </section>
+
+
+                <section id="one">
+
+                    <header className="major">
+
+                        <h2 >
+                            Latest & Greatest <br/>  
+                        </h2>
+
+                        <LastTV />
+
+                        <br />
+                            
+                    </header>
+
+                </section>
+
+
+            </div>
 
             </Layout>
         )

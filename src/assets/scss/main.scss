@@ -903,7 +903,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('https://wallpaperplay.com/walls/full/9/d/4/131233.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -1249,7 +1249,7 @@
 
 			h1, h2, h3, h4, h5, h6 {
 				br {
-					display: none;
+					display: block;
 				}
 			}
 

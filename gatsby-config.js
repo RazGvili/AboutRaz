@@ -5,6 +5,14 @@ module.exports = {
     description: "A Gatsby.js Starter based on Strata by HTML5 UP"
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
