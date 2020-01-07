@@ -33,8 +33,8 @@ export default function SimpleSnackbar() {
     <div>
       <Snackbar
         anchorOrigin={{
-          vertical: 'top',
-          horizontal: 'center',
+          vertical: 'bottom',
+          horizontal: 'left',
         }}
         open={open}
         //autoHideDuration={6000}
@@ -42,9 +42,9 @@ export default function SimpleSnackbar() {
         ContentProps={{
           'aria-describedby': 'message-id',
         }}
-        message={<span id="message-id"> I'm on a quest to find an awesome product manager position.</span>}
+        message={<span id="message-id"> I'm looking for a PM position :)</span>}
         action={[
-          <Button key="LinkedIn" color="secondary" size="small" onClick={handleLinkedIn}>Contact Me</Button>
+          <Button key="LinkedIn" color="secondary" size="small" onClick={handleLinkedIn}><div style={{textTransform: "none"}}>Contact</div></Button>
           ,
           <IconButton
             key="close"

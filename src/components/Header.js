@@ -16,10 +16,10 @@ class Header extends React.Component {
             <header id="header">
                 <div style= {{ textAlign:"center"}}>
                     <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
-                    <div></div><h1><strong> Raz Gvili </strong> <br /></h1>
+                    <h1><strong style= {{fontSize: "1.5rem"}}> Raz Gvili </strong></h1>
                     <div id="footer">
                         <ul className="icons">
-                            <li><a href="https://www.linkedin.com/in/raz-gvili/" className="icon fa-linkedin" target="_blank"><span className="label">Linkedin</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/raz-gvili/" target="_blank" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
                             <li><a href="mailto:razik.gvili@gmail.com" target="_top" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
                         </ul>
                     </div>

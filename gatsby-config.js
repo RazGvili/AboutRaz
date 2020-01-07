@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: "Raz Gvili",
+    author: "Raz Gvili",
+    description: "A simple portfolio"
   },
   plugins: [
     {
@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'AboutRaz',
+        short_name: 'AboutRaz',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

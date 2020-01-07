@@ -7,6 +7,11 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   card: {
     minWidth: 275,
+    borderWidth: "2px",
+    borderStyle: "solid",
+    borderRadius: "20px",
+    borderColor: "#406c71"
+
   },
   bullet: {
     display: 'inline-block',
