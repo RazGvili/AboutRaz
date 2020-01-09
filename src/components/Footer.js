@@ -9,6 +9,7 @@ class Footer extends React.Component {
                     <div className="inner">
                         <ul className="copyright">
                             <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            <li><span>Development: Raz Gvili</span></li>
                         </ul>
                     </div>
                 </div>

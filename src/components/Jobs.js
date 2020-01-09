@@ -43,9 +43,9 @@ export default function SimpleCard() {
           2018 - PRESENT
         </Typography>
           <ul style={{listStyleType: "none"}}>
-            <li> <Typography variant="body1" component="p"> Raised pre-seed and joined Axel Springer Porsche accelerator in Berlin, attended Diverse workshops, Mentoring and pitch training <br/><br/> </Typography></li>
-            <li> <Typography variant="body1" component="p"> Leading the product life-cycle, lean & agile approach </Typography> <br/> </li> 
-            <li> <Typography variant="body1" component="p"> Development of the company web app, Stack: React, Node, Redux, Firebase, Firestore. Mainly backend </Typography> </li>
+            <li> <Typography variant="body1" component="p"> Accepted to Axel Springer Porsche accelerator in Berlin, attended diverse workshops, mentoring and pitch training. Tested our assumptions in the local eco-system <br/><br/> </Typography></li>
+            <li> <Typography variant="body1" component="p"> Leading the product life-cycle, applying lean & agile methods </Typography> <br/> </li> 
+            <li> <Typography variant="body1" component="p"> Web-app development: React, Redux, Node, Firebase, Firestore </Typography> </li>
           </ul>
       </CardContent>
     </Card>
@@ -63,9 +63,9 @@ export default function SimpleCard() {
         </Typography>
           <ul>
             <Typography variant="body1" component="p">
-              Execution of Web development projects from idea to production <br/><br/>
-              Translating client needs into action items <br/><br/>
-              Managing clients, internal resources and third parties/vendors
+              Hands-on web development projects execution, from idea to production <br/><br/>
+              Managing clients, Translating needs into prioritized action items <br/><br/>
+              Coordinating internal resources and third parties/vendors
             </Typography>
         </ul>     
       </CardContent>
