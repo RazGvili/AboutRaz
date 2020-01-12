@@ -26,6 +26,31 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        features: {
+          auth: false,       
+          database: false,  
+          firestore: false,
+          storage: false,    
+          messaging: false, 
+          functions: false,  
+          performance: false,
+          analytics: true,
+        },
+        credentials: {
+          apiKey: "AIzaSyAxVVjUbV1-qtkIS7N46UkCgkvAS23-UZ4",
+          authDomain: "aboutraz.firebaseapp.com",
+          databaseURL: "https://aboutraz.firebaseio.com",
+          projectId: "aboutraz",
+          storageBucket: "aboutraz.appspot.com",
+          messagingSenderId: "800528552573",
+          appId: "1:800528552573:web:b9af58131ffb563f4f9714",
+          measurementId: "G-LJFM2BNC87"
+        }
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],

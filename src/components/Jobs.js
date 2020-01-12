@@ -11,7 +11,6 @@ const useStyles = makeStyles({
     borderStyle: "solid",
     borderRadius: "20px",
     borderColor: "#406c71"
-
   },
   bullet: {
     display: 'inline-block',
@@ -30,46 +29,67 @@ export default function SimpleCard() {
   const classes = useStyles();
 
   return (
-      <div>
-    <Card className={classes.card}>
-      <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Berlin-Israel
-        </Typography>
-        <Typography variant="h5" component="h3">
-          Co-Founder, Treffen Anywhere
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          2018 - PRESENT
-        </Typography>
-          <ul style={{listStyleType: "none"}}>
-            <li> <Typography variant="body1" component="p"> Accepted to Axel Springer Porsche accelerator in Berlin, attended diverse workshops, mentoring and pitch training. Tested our assumptions in the local eco-system <br/><br/> </Typography></li>
-            <li> <Typography variant="body1" component="p"> Leading the product life-cycle, applying lean & agile methods </Typography> <br/> </li> 
-            <li> <Typography variant="body1" component="p"> Web-app development: React, Redux, Node, Firebase, Firestore </Typography> </li>
-          </ul>
-      </CardContent>
-    </Card>
-<br/>
-<Card className={classes.card}>
-      <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Tel Aviv
-        </Typography>
-        <Typography variant="h5" component="h3">
-          Project/Product Manager, Compie Tech
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          2016 - 2018
-        </Typography>
-          <ul>
-            <Typography variant="body1" component="p">
-              Hands-on web development projects execution, from idea to production <br/><br/>
-              Managing clients, Translating needs into prioritized action items <br/><br/>
-              Coordinating internal resources and third parties/vendors
+    <div>
+
+      <Card className={classes.card}>
+        <CardContent>
+          <Typography className={classes.title} color="textSecondary" gutterBottom>
+            Berlin-Israel
+          </Typography>
+          <Typography variant="h5" component="h3">
+            Co-Founder, Treffen Anywhere
+          </Typography>
+          <Typography className={classes.pos} color="textSecondary">
+            2018 - PRESENT
+          </Typography>
+            <ul style={{listStyleType: "none"}}>
+              <li> <Typography variant="body1" component="p"> Accepted to Axel Springer Porsche accelerator in Berlin, attended diverse workshops, mentoring and pitch training. Tested our assumptions in the local eco-system <br/><br/> </Typography></li>
+              <li> <Typography variant="body1" component="p"> Leading the product life-cycle, applying lean & agile methods </Typography> <br/> </li> 
+              <li> <Typography variant="body1" component="p"> Web-app development: React, Redux, Node, Firebase, Firestore </Typography> </li>
+            </ul>
+        </CardContent>
+      </Card>
+      <br/>
+      <Card className={classes.card}>
+          <CardContent>
+            <Typography className={classes.title} color="textSecondary" gutterBottom>
+              Tel Aviv
             </Typography>
-        </ul>     
-      </CardContent>
-    </Card>
+            <Typography variant="h5" component="h3">
+              Project/Product Manager, Compie Tech
+            </Typography>
+            <Typography className={classes.pos} color="textSecondary">
+              2016 - 2018
+            </Typography>
+              <ul>
+                <Typography variant="body1" component="p">
+                  Hands-on web development projects execution, from idea to production <br/><br/>
+                  Managing clients, Translating needs into prioritized action items <br/><br/>
+                  Coordinating internal resources and third parties/vendors
+                </Typography>
+            </ul>     
+          </CardContent>
+        </Card>
+        <br/>
+        <Card className={classes.card}>
+          <CardContent>
+            <Typography className={classes.title} color="textSecondary" gutterBottom>
+              Holon
+            </Typography>
+            <Typography variant="h5" component="h3">
+              BSc Computer Science, HIT
+            </Typography>
+            <Typography className={classes.pos} color="textSecondary">
+              2016 - 2019
+            </Typography>
+              <ul>
+                <Typography variant="body1" component="p">
+                  C/C++ | SQL | Java | Python | Machine Learning  
+                </Typography>
+            </ul>     
+          </CardContent>
+        </Card>
+
     </div>
   );
 

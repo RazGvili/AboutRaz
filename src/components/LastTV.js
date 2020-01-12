@@ -36,7 +36,7 @@ export default function MediaCard() {
 
     <div className={classes.root}>
 
-      <Grid container spacing={3}>
+      <Grid container spacing={4}>
 
         <Grid item xs={12} sm={6} lg={6} xl={4}>
 

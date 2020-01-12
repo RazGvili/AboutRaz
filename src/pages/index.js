@@ -39,10 +39,10 @@ class HomeIndex extends React.Component {
                                 I'm a "passionately curious" person, always carrying a book, just in case. <br />
                                 The above goes well with my tendency to be data-informed.  <br/><br/>
 
-                                Presently im looking for a new environment to utilize my diverse set of skills. <br/>
+                                Presently im looking for a new environment to utilize my set of skills. <br/>
                                 An ideal fit will be a blend of innovation, great people, cool tech and a productive atmosphere. <br/><br/>
 
-                                For non-professional fun, I love spending time with my amazing wife, traveling, meeting friends, reading, watching crime/sci-fi TV series/movies, working out, coding. <br/> 
+                                For non-professional fun, I love spending time with my amazing wife, traveling, meeting friends, reading, watching crime/sci-fi TV series/movies, working out, coding, gaming. <br/> 
                             </h4>
                             </div>
                             
@@ -69,7 +69,7 @@ class HomeIndex extends React.Component {
                     <header className="major">
 
                         <h2 >
-                            Experience <br/>  
+                            Experience &  Education <br/>  
                         </h2>
 
                         <Jobs />

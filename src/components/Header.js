@@ -15,7 +15,7 @@ class Header extends React.Component {
         return (
             <header id="header">
                 <div style= {{ textAlign:"center"}}>
-                    <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
+                    <div className="image avatar"><img src={avatar} alt="" /></div>
                     <h1><strong style= {{fontSize: "1.5rem"}}> Raz Gvili </strong></h1>
                     <div id="footer">
                         <ul className="icons">
