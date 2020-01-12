@@ -1,6 +1,6 @@
 import React from 'react'
 import PositionedSnackbar from './Snackbar'
-
+import PageView from './Analytics'
 
 class Footer extends React.Component {
     render() {
@@ -15,7 +15,7 @@ class Footer extends React.Component {
                     </div>
                 </div>
                 <PositionedSnackbar />
-                
+                <PageView />
             </div>  
         )
     }
