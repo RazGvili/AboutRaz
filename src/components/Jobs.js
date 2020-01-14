@@ -98,13 +98,13 @@ export default function SimpleCard() {
               <ul>
                 <Typography variant="body1" component="p">
                   <br/>
-                  Goal: User uploads text -> receives key terms -> use api to match images to key terms<br/>
-                  Front: React + SemanticUI<br/>
-                  Back: Python, Flask, Spacy, Textacy, Firebase 
+                  Goal: Webapp for automatic text summarization via NLP, Image search API <br/><br/>
+                  Front: React + SemanticUI<br/><br/>
+                  Back: Python, Flask, Spacy, Textacy, Firebase <br/>
                   <hr/>
-                  Goal: Use "Human activity recognition using smartphones" dataset to predict activity<br/>
-                  Trained 3 different classifiers: SVM, Logistic regression, neural network and compare accuracy
-                  Stack: Python, Matplotlib, Pandas, Sklearn, Tensorflow. 
+                  Goal: Use "Human activity recognition using smartphones" dataset to predict user activity<br/><br/>
+                  Implementation of SVM, Logistic regression, neural network, Comparison of accuracy<br/><br/>
+                  Stack: Python, Matplotlib, Pandas, Sklearn, Tensorflow 
                 </Typography>
             </ul>     
           </CardContent>

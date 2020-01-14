@@ -21,6 +21,7 @@ class Header extends React.Component {
                         <ul className="icons">
                             <li><a href="https://www.linkedin.com/in/raz-gvili/" target="_blank" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
                             <li><a href="mailto:razik.gvili@gmail.com" target="_top" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
+                            <li><a href="https://github.com/RazGvili" target="_blank" className="icon fa-git"><span className="label">GitHub</span></a></li>
                         </ul>
                     </div>
                 </div>
