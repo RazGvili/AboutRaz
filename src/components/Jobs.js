@@ -89,6 +89,26 @@ export default function SimpleCard() {
             </ul>     
           </CardContent>
         </Card>
+        <br/>
+        <Card className={classes.card}>
+          <CardContent>
+            <Typography variant="h5" component="h3">
+              Recent Coding Projects
+            </Typography>
+              <ul>
+                <Typography variant="body1" component="p">
+                  <br/>
+                  Goal: User uploads text -> receives key terms -> use api to match images to key terms<br/>
+                  Front: React + SemanticUI<br/>
+                  Back: Python, Flask, Spacy, Textacy, Firebase 
+                  <hr/>
+                  Goal: Use "Human activity recognition using smartphones" dataset to predict activity<br/>
+                  Trained 3 different classifiers: SVM, Logistic regression, neural network and compare accuracy
+                  Stack: Python, Matplotlib, Pandas, Sklearn, Tensorflow. 
+                </Typography>
+            </ul>     
+          </CardContent>
+        </Card>
 
     </div>
   );
