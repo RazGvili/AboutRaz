@@ -98,11 +98,11 @@ export default function SimpleCard() {
               <ul>
                 <Typography variant="body1" component="p">
                   <br/>
-                  Goal: Webapp for automatic text summarization via NLP, Image search API <br/><br/>
+                  Webapp for automatic text summarization via NLP, Image search API <br/><br/>
                   Front: React + SemanticUI<br/><br/>
                   Back: Python, Flask, Spacy, Textacy, Firebase <br/>
                   <hr/>
-                  Goal: Use "Human activity recognition using smartphones" dataset to predict user activity<br/><br/>
+                  Use "Human activity recognition using smartphones" dataset to predict user activity<br/><br/>
                   Implementation of SVM, Logistic regression, neural network, Comparison of accuracy<br/><br/>
                   Stack: Python, Matplotlib, Pandas, Sklearn, Tensorflow 
                 </Typography>
