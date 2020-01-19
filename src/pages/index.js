@@ -36,11 +36,14 @@ class HomeIndex extends React.Component {
                             
                             <div style={{display: "block !important"}}>
                             <h4>
-                                I'm a "passionately curious" person, always carrying a book, just in case. <br />
-                                The above goes well with my tendency to be data-informed.  <br/><br/>
+                                <ul>
+                                    <li>Enthusiastic about adding value with tech</li>
+                                    <li>Passionately curious person</li>
+                                    <li>Enjoy solving problems in collaboration with others</li>
+                                </ul>
 
-                                Presently im looking for a new environment to utilize my set of skills. <br/>
-                                An ideal fit will be a blend of innovation, great people, cool tech and a productive atmosphere. <br/><br/>
+                                Looking for a new env to join the "Idea, Validate, implement, Optimize" cycle :)  <br/>
+                                An ideal fit will be a blend of innovation, great people, and cool tech(preferably AI related). <br/><br/>
 
                                 For non-professional fun, I love spending time with my amazing wife, traveling, meeting friends, reading, watching crime/sci-fi TV series/movies, working out, coding, gaming. <br/> 
                             </h4>
