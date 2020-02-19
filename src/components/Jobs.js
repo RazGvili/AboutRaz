@@ -7,10 +7,10 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   card: {
     minWidth: 275,
-    borderWidth: "2px",
+    borderWidth: "3px",
     borderStyle: "solid",
     borderRadius: "20px",
-    borderColor: "#406c71"
+    borderColor: "#406c71",    
   },
   bullet: {
     display: 'inline-block',
@@ -41,11 +41,13 @@ export default function SimpleCard() {
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
             2018 - PRESENT
-          </Typography>
-            <ul style={{listStyleType: "disc"}}>
-              <li> <Typography variant="body1" component="p"> Accepted to Axel Springer Porsche accelerator in Berlin, attended diverse workshops, mentoring and pitch training.<br/> Validated  our hypotheses in the local eco-system <br/> </Typography></li>
-              <li> <Typography variant="body1" component="p"> Improving delivery time and features impact by utilizing lean & agile methods. Turning feedback into features </Typography>  </li> 
-              <li> <Typography variant="body1" component="p"> Web-app development from scratch to production: React, Redux, Node, Firebase, Firestore </Typography> </li>
+          </Typography >
+
+            <ul style={{listStyleType: "disc", color: 'black'}}>
+              <li> <Typography variant="body1" > <strong> Accepted & raised pre-seed @ APX </strong> accelerator. Attended diverse workshops, mentoring and pitch training.<br/> Validated  our hypotheses in the local eco-system, e.g. the user’s persona. <br/> </Typography></li><br/>
+              <li> <Typography variant="body1" > Leading the <strong>product life-cycle.</strong> Managing the product <strong>roadmap & strategy.</strong> Writing use cases and flows. <br /> Polishing the <strong>UI/UX</strong> based on various feedback.</Typography></li><br/>
+              <li> <Typography variant="body1" > Improving delivery time and features impact by utilizing <strong>lean & agile</strong> methods. <br/> Managing sprints & backlog using Trello and Monday. </Typography>  </li> <br/>
+              <li> <Typography variant="body1" > <strong>Web-app development</strong> from scratch to production: React, Redux, Node, Firebase, Firestore. </Typography> </li>
             </ul>
         </CardContent>
       </Card>
@@ -55,16 +57,17 @@ export default function SimpleCard() {
             <Typography className={classes.title} color="textSecondary" gutterBottom>
               Tel Aviv
             </Typography>
-            <Typography variant="h5" component="h3">
+            <Typography variant="h5" component="h3">  
               Project/Product Manager, Compie Tech
             </Typography>
             <Typography className={classes.pos} color="textSecondary">
               2016 - 2018
             </Typography>
               <ul style={{listStyleType: "disc"}}>
-                  <li> <Typography variant="body1" component="p"> Managed multiple web development projects from specification to production on schedule </Typography> </li>
-                  <li> <Typography variant="body1" component="p"> Successfully coordinated between clients, R&D, and management </Typography> </li>
-                  <li> <Typography variant="body1" component="p"> Account management, Pre/Post sales </Typography> </li>
+                  <li> <Typography variant="body1" > Led <strong>multiple</strong> and diverse <strong>software</strong> development <strong>projects</strong> from idea to post-deployment. </Typography> </li><br/>
+                  <li> <Typography variant="body1" > <strong>Coordinated</strong> all relevant <strong>stakeholders</strong> of many projects in parallel. Secured company objectives and clients’ contentment. </Typography> </li><br/>
+                  <li> <Typography variant="body1" > Formulated <strong>product specifications</strong> maximized client product impact within scope. Using Axure, Draw.IO, and docs.  </Typography> </li><br/>
+                  <li> <Typography variant="body1" > Worked hands-on with <strong>DEV</strong> teams, Monitored project <strong>timeline & progress.</strong> All to ensure flawless execution. </Typography> </li>
             </ul>     
           </CardContent>
         </Card>
@@ -96,15 +99,15 @@ export default function SimpleCard() {
               <ul>
                 <Typography variant="body1" component="p">
                   <br/>
-                  Webapp for automatic text summarization via NLP, Image search API <br/><br/>
+                  Webapp for automatic text summarization via NLP, Image search API.<br/><br/>
                   <ul style={{listStyle: "disc"}}>
                     <li>Front: React + SemanticUI</li>
                     <li>Back: Python, Flask, Spacy, Textacy, Firebase</li>
                   </ul>
                   <hr/>
-                  Use "Human activity recognition using smartphones" dataset to predict user activity<br/><br/>
+                  Use "Human activity recognition using smartphones" dataset to predict user activity.<br/><br/>
                   <ul style={{listStyle: "disc"}}>
-                    <li>Implementation of SVM, Logistic regression, neural network. Comparison of algorithms accuracy</li>
+                    <li>Implementation of SVM, Logistic regression, neural network. Comparison of algorithms accuracy.</li>
                     <li>Stack: Python, Matplotlib, Pandas, Sklearn, Tensorflow</li>
                   </ul>
                 </Typography>

@@ -45,7 +45,6 @@ export default function MediaCard() {
                 <CardMedia
                   className={classes.media}
                   image="https://miro.medium.com/max/2700/1*_WyxwEksQLPZEXZGo2ZdxA.png"
-                  title="Contemplative Reptile"
                 />
                 <CardContent className={classes.content}>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -56,11 +55,7 @@ export default function MediaCard() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary" href={"https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"} target={"_blank"}>
-                  More
-                </Button>
-              </CardActions>
+
             </Card>
 
         </Grid>
@@ -73,7 +68,6 @@ export default function MediaCard() {
                 <CardMedia
                   className={classes.media}
                   image="https://media.comicbook.com/2019/11/star-wars-the-mandalorian-chapter-4-baby-yoda-scenes-fan-reactio-1198039-1280x0.jpeg"
-                  title="Contemplative Reptile"
                 />
                 <CardContent className={classes.content}>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -84,11 +78,7 @@ export default function MediaCard() {
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary" href={"https://www.imdb.com/title/tt8111088/"} target={"_blank"}>
-                  More
-                </Button>
-              </CardActions>
+
             </Card>
 
         </Grid>
@@ -100,26 +90,67 @@ export default function MediaCard() {
               <CardActionArea onClick={() => {window.open('https://material-ui.com/getting-started/usage/', '_blank');}}> 
                 <CardMedia
                   className={classes.media}
-                  image="https://blueturtle.blog/img/cover/Material-UI.png"
-                  title="Contemplative Reptile"
+                  image="https://material-ui.com/static/logo_raw.svg"
                 />
                 <CardContent className={classes.content}>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Material-UI
+                  Material-UI
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Great UI Framework for React, Useful docs. <br/><br/><br/>
+                    Great UI Framework for React, Useful docs. <br/><br/>
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary" href={"https://material-ui.com/getting-started/usage/"} target={"_blank"}>
-                  More
-                </Button>
-              </CardActions>
+
             </Card>
 
         </Grid>
+
+        <Grid item xs={12} sm={6} lg={6} xl={4}>
+
+            <Card className={classes.card}>
+              <CardActionArea onClick={() => {window.open('https://www.mobilespoon.net/2019/04/collection-cognitive-biases-how-to-use.html?m=1', '_blank');}}> 
+                <CardMedia
+                  className={classes.media}
+                  image="https://1.bp.blogspot.com/-4SuhzYAKxA0/XfsegHW0uVI/AAAAAAAAQMM/Kpg0u0l4fHcYVzlUNhfa81Aezw7UQ271wCEwYBhgL/s640/Perceived%2BValue%2BBias.png"
+                />
+                <CardContent className={classes.content}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    84 cognitive biases
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                  One of my favorites about cognitive biases and UI/UX. <br/>
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+
+            </Card>
+
+        </Grid>
+
+        
+        <Grid item xs={12} sm={6} lg={6} xl={4}>
+
+            <Card className={classes.card}>
+              <CardActionArea onClick={() => {window.open('https://en.wikipedia.org/wiki/Dune_(novel)', '_blank');}}> 
+                <CardMedia
+                  className={classes.media}
+                  image="https://i.pinimg.com/originals/e2/a3/d1/e2a3d16d9151e71deb263baec3fc896f.jpg"
+                />
+                <CardContent className={classes.content}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Dune
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    A Sci-Fi masterpiece. Astounding book.  <br/> <br/>
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+
+            </Card>
+
+        </Grid>
+        
 
       </Grid>
     </div>

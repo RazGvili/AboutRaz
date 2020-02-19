@@ -26,6 +26,21 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
+                    
+                <section id="one">
+
+<header className="major">
+
+    <h2>
+        Strengths <br/>  
+    </h2>
+
+    <Chips />
+    
+</header>
+
+</section>
+
                 <section id="one">
 
                     <header className="major">
@@ -37,13 +52,13 @@ class HomeIndex extends React.Component {
                             <div style={{display: "block !important"}}>
                             <h4>
                                 <ul>
-                                    <li>Enthusiastic about adding value with tech</li>
-                                    <li>Passionately curious person</li>
+                                    <li>Enthusiastic about adding value with cutting-edge tech @ scale</li>
+                                    <li>Learning as a hobby, passionately curious person</li>
                                     <li>Enjoy solving problems in collaboration with others</li>
                                 </ul>
 
                                 Looking for a new env to join the "Idea, Validate, implement, Optimize" cycle :)  <br/>
-                                An ideal fit will be a blend of innovation, great people, and cool tech(preferably AI related). <br/><br/>
+                                An ideal fit will be a blend of innovation, great people, large scale, and cool tech (preferably AI related). <br/><br/>
 
                                 For non-professional fun, I love spending time with my amazing wife, traveling, meeting friends, reading, watching crime/sci-fi TV series/movies, working out, coding, gaming. <br/> 
                             </h4>
@@ -53,19 +68,23 @@ class HomeIndex extends React.Component {
 
                     </section>
 
-                    <section id="one">
 
-                        <header className="major">
+                    
+                <section id="one">
 
-                            <h2>
-                                Strengths <br/>  
-                            </h2>
+                <header className="major">
 
-                            <Chips />
-                            
-                        </header>
+                    <h2 >
+                        Favorites <br/>  
+                    </h2>
 
-                    </section>
+                    <LastTV />
+
+                    <br />
+                        
+                </header>
+
+                </section>
 
                 <section id="one">
 
@@ -82,21 +101,6 @@ class HomeIndex extends React.Component {
                 </section>
 
 
-                <section id="one">
-
-                    <header className="major">
-
-                        <h2 >
-                            Latest & Greatest <br/>  
-                        </h2>
-
-                        <LastTV />
-
-                        <br />
-                            
-                    </header>
-
-                </section>
 
 
             </div>

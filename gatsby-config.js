@@ -51,6 +51,13 @@ module.exports = {
         }
       },
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: '1695743',
+        sv: '6'
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
