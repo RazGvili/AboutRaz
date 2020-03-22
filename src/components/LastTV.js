@@ -97,7 +97,7 @@ export default function MediaCard() {
                   Material-UI
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Great UI Framework for React, Useful docs. <br/><br/>
+                    Great UI Framework for React, Useful docs. <br/><br/><br/>
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -119,7 +119,7 @@ export default function MediaCard() {
                     84 cognitive biases
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                  One of my favorites about cognitive biases and UI/UX. <br/>
+                  One of my favorites about cognitive biases and UI/UX. <br/><br/>
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -142,7 +142,7 @@ export default function MediaCard() {
                     Dune
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    A Sci-Fi masterpiece. Astounding book.  <br/> <br/>
+                    A Sci-Fi masterpiece. Astounding book.  <br/> <br/><br/>
                   </Typography>
                 </CardContent>
               </CardActionArea>

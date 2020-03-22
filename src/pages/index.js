@@ -29,23 +29,23 @@ class HomeIndex extends React.Component {
                     
                 <section id="one">
 
-<header className="major">
+                    <header className="major">
 
-    <h2>
-        Strengths <br/>  
-    </h2>
+                        <h2 style={{fontWeight: '700'}}>
+                            Strengths <br/>  
+                        </h2>
 
-    <Chips />
-    
-</header>
+                        <Chips />
+                        
+                    </header>
 
-</section>
+                </section>
 
                 <section id="one">
 
                     <header className="major">
 
-                            <h2 >
+                            <h2 style={{fontWeight: '700'}}>
                                 About <br/>  
                             </h2>
                             
@@ -74,7 +74,7 @@ class HomeIndex extends React.Component {
 
                 <header className="major">
 
-                    <h2 >
+                    <h2 style={{fontWeight: '700'}}>
                         Favorites <br/>  
                     </h2>
 
@@ -90,7 +90,7 @@ class HomeIndex extends React.Component {
 
                     <header className="major">
 
-                        <h2 >
+                        <h2 style={{fontWeight: '700'}}>
                             Experience &  Education <br/>  
                         </h2>
 

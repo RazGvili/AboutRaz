@@ -1,8 +1,12 @@
 import React from 'react';
+
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import IconButton from '@material-ui/core/IconButton';
+
 
 const useStyles = makeStyles({
   card: {
@@ -10,7 +14,7 @@ const useStyles = makeStyles({
     borderWidth: "3px",
     borderStyle: "solid",
     borderRadius: "20px",
-    borderColor: "#406c71",    
+    borderColor: "#00000014",    
   },
   bullet: {
     display: 'inline-block',
@@ -99,21 +103,57 @@ export default function SimpleCard() {
               <ul>
                 <Typography variant="body1" component="p">
                   <br/>
-                  Webapp for automatic text summarization via NLP, Image search API.<br/><br/>
-                  <ul style={{listStyle: "disc"}}>
-                    <li>Front: React + SemanticUI</li>
-                    <li>Back: Python, Flask, Spacy, Textacy, Firebase</li>
-                  </ul>
-                  <hr/>
-                  Use "Human activity recognition using smartphones" dataset to predict user activity.<br/><br/>
-                  <ul style={{listStyle: "disc"}}>
-                    <li>Implementation of SVM, Logistic regression, neural network. Comparison of algorithms accuracy.</li>
-                    <li>Stack: Python, Matplotlib, Pandas, Sklearn, Tensorflow</li>
-                  </ul>
+
+                  <b>Description</b><br/>
+                  NLP course code-along. 
+                  SMS spam classifier using random forest.<br/><br/>
+
+                  <div style={{textAlign: 'left'}}>
+                  <b>Stack</b> <br/> Python, NLTK, Matplotlib, Pandas, Sklearn<br/>
+
+                    <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/Spam-Classifier/blob/master/Spam_Classifier%20.ipynb', '_blank');}}>
+                      <GitHubIcon/>
+                    </IconButton>
+                    
+                    <hr/>
+                  </div>
+
+                  <b>Description</b><br/>
+                  Text-to-image webapp using NLP for keywords extraction & APIs to image search engines. <br/><br/>
+
+                      <div style={{textAlign: 'left'}}>
+                        <b>Front</b> <br/> React + SemanticUI <br/>
+                        <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/final_proj_front', '_blank');}}>
+                          <GitHubIcon/>
+                        </IconButton>
+                      <br/><br/>
+                      </div>
+
+                      <div style={{textAlign: 'left'}}>
+                      <b>Back</b><br/> Python, Flask, Spacy, Textacy, Firebase <br/>
+                        <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/final_proj_server', '_blank');}}>
+                          <GitHubIcon/>
+                        </IconButton>
+                      </div>
+                      <hr/>
+
+                      <b>Description</b><br/>
+                        Use "Human activity recognition using smartphones" dataset to predict user activity.<br/><br/>
+                        Implementation of SVM, Logistic regression, neural network. Comparison of algorithms accuracy. <br/>
+                      <br/>
+
+                      <div style={{textAlign: 'left'}}>
+                      <b>Stack</b><br/> Python, Matplotlib, Pandas, Sklearn, Tensorflow<br/>
+                        <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/ML-Course/tree/master/Human%20Activity%20Recognition%20Dataset', '_blank');}}>
+                          <GitHubIcon/>
+                        </IconButton>
+                        </div>
+
                 </Typography>
             </ul>     
           </CardContent>
         </Card>
+        <br/>
 
     </div>
   );

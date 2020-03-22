@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
         '& > *': {
             margin: theme.spacing(0.5),
             background: "linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);",
-            fontSize: '14px',
+            fontSize: '16px',
             fontWeight: '600'
         },
         '& > *:hover': {
