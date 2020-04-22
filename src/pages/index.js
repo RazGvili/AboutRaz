@@ -7,6 +7,15 @@ import Chips from './../components/Topstrip'
 import Jobs from './../components/Jobs'
 import LastTV from './../components/LastTV'
 
+import BuildIcon from '@material-ui/icons/Build'
+import Button from '@material-ui/core/Button';
+
+import Paper from '@material-ui/core/Paper'
+import Link from '@material-ui/core/Link';
+import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
+
+
+
 // <div className="icons" style={{display:"inline"}}><span className="icon fa-space-shuttle"></span></div>
 // <div className="icons" style={{display:"inline"}}><span className="icon fa-grav"></span></div>
 // <div className="icons" style={{display:"inline"}}><span className="icon fa-briefcase"></span></div>
@@ -26,7 +35,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    
+                
                 <section id="one">
 
                     <header className="major">
@@ -40,6 +49,7 @@ class HomeIndex extends React.Component {
                     </header>
 
                 </section>
+
 
                 <section id="one">
 
@@ -66,16 +76,42 @@ class HomeIndex extends React.Component {
                             
                     </header>
 
-                    </section>
+                </section>
 
 
-                    
+                <section id="one">
+
+                    <Paper elevation={3} style={{padding: '10px', backgroundColor: '#edefef', width: '80%' , margin: 'auto', maxWidth: '500px'}}>
+
+                        <header className="major">
+
+                            <div style={{textAlign: 'center'}}>
+                                <h3 style={{fontWeight: '600'}}> Working on something new... </h3> 
+
+                                <Button
+                                    variant="outlined"
+                                    style={{textTransform: 'none', fontWeight: '600'}}
+                                    onClick={() => {window.open('https://deciidy.web.app/', '_blank')}}
+                                    endIcon={<EmojiObjectsIcon />}
+                                    size="large"                                    
+                                >
+                                    deciidy
+                                </Button>
+                            </div>
+                            
+                        </header>
+
+                    </Paper>
+
+                </section>
+
+
                 <section id="one">
 
                 <header className="major">
 
                     <h2 style={{fontWeight: '700'}}>
-                        Favorites <br/>  
+                        Latest & Greatest <br/>  
                     </h2>
 
                     <LastTV />
