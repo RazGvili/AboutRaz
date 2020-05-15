@@ -2,10 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
@@ -25,9 +23,6 @@ const useStyles = makeStyles({
   
 });
 
-const handleClick = () => {
-  console.log("s")
-};
 
 export default function MediaCard() {
   const classes = useStyles();
@@ -87,17 +82,17 @@ export default function MediaCard() {
         <Grid item xs={12} sm={6} lg={6} xl={4}>
 
             <Card className={classes.card}>
-              <CardActionArea onClick={() => {window.open('https://material-ui.com/getting-started/usage/', '_blank');}}> 
+              <CardActionArea onClick={() => {window.open('https://hackernoon.com/wtf-is-a-strategy-bcaa3fda9a31', '_blank');}}> 
                 <CardMedia
                   className={classes.media}
-                  image="https://material-ui.com/static/logo_raw.svg"
+                  image="https://hackernoon.com/hn-images/1*zgbiZewPC2alrG6ZK0XHEg.png"
                 />
                 <CardContent className={classes.content}>
                   <Typography gutterBottom variant="h5" component="h2">
-                  Material-UI
+                    WTF is Strategy?
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
-                    Great UI Framework for React, Useful docs. <br/><br/><br/>
+                    Great read about strategy. <br/><br/><br/>
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -143,6 +138,29 @@ export default function MediaCard() {
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     A Sci-Fi masterpiece. Astounding book.  <br/> <br/><br/>
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+
+            </Card>
+
+        </Grid>
+
+         
+        <Grid item xs={12} sm={6} lg={6} xl={4}>
+
+            <Card className={classes.card}>
+              <CardActionArea onClick={() => {window.open('https://www.imdb.com/title/tt0141842/', '_blank');}}> 
+                <CardMedia
+                  className={classes.media}
+                  image="https://m.media-amazon.com/images/M/MV5BYjQzNWZjYmMtOWQzMS00YTcyLWIyYzctODNmMmE4MjYzYTYxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+                />
+                <CardContent className={classes.content}>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    The Sopranos
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                    TV at its best. Smart, funny, powerful. <br/> <br/><br/>
                   </Typography>
                 </CardContent>
               </CardActionArea>

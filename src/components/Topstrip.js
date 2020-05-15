@@ -6,7 +6,8 @@ import BarChartOutlinedIcon from '@material-ui/icons/BarChartOutlined';
 import RowingOutlinedIcon from '@material-ui/icons/RowingOutlined'; 
 import WhatshotOutlinedIcon from '@material-ui/icons/WhatshotOutlined';
 import BatteryChargingFullOutlinedIcon from '@material-ui/icons/BatteryChargingFullOutlined';
-
+import SpeedIcon from '@material-ui/icons/Speed';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -57,7 +58,10 @@ export default function Chips() {
             label="Leadership & Teamwork"
             />
 
-
+            <Chip
+            icon={<SpeedIcon />}
+            label="Learning fast"
+            />
 
         </div>
     );
