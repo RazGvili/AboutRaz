@@ -35,6 +35,28 @@ export default function MediaCard() {
 
         <Grid item xs={12} sm={6} lg={6} xl={4}>
 
+        <Card className={classes.card}>
+            <CardActionArea onClick={() => {window.open('https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw', '_blank');}}>
+              <CardMedia
+                className={classes.media}
+                image="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/3B1B_Logo.svg/1200px-3B1B_Logo.svg.png"
+              />
+              <CardContent className={classes.content}>
+                <Typography gutterBottom variant="h5" component="h2">
+                  3Blue1Brown
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Heaven for math enthusiasts.<br/><br/><br/>
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+
+          </Card>
+
+        </Grid>
+
+        <Grid item xs={12} sm={6} lg={6} xl={4}>
+
             <Card className={classes.card}>
               <CardActionArea onClick={() => {window.open('https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow', '_blank');}}>
                 <CardMedia

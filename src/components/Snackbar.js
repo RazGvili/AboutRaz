@@ -42,7 +42,7 @@ export default function SimpleSnackbar() {
         ContentProps={{
           'aria-describedby': 'message-id',
         }}
-        message={<span id="message-id"> I'm looking for a PM position :)</span>}
+        message={<span id="message-id"> I'm looking for my next challenge :)</span>}
         action={[
           <Button key="LinkedIn" color="secondary" size="small" onClick={handleLinkedIn}><div style={{textTransform: "none"}}>Contact</div></Button>
           ,

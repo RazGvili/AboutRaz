@@ -41,17 +41,17 @@ export default function SimpleCard() {
             Berlin-Israel
           </Typography>
           <Typography variant="h5" component="h3">
-            Co-Founder, Treffen Anywhere
+            Dev, PM, Co-Founder, Treffen Anywhere
           </Typography>
           <Typography className={classes.pos} color="textSecondary">
             2018 - PRESENT
           </Typography >
 
             <ul style={{listStyleType: "disc", color: 'black'}}>
+              <li> <Typography variant="body1" > <strong>Web-app development</strong> from scratch to production: React, Redux, Node, Firebase, Firestore. </Typography> </li><br/>
               <li> <Typography variant="body1" > <strong> Accepted & raised pre-seed @ APX </strong> accelerator. Attended diverse workshops, mentoring and pitch training.<br/> Validated  our hypotheses in the local eco-system, e.g. the user’s persona. <br/> </Typography></li><br/>
               <li> <Typography variant="body1" > Leading the <strong>product life-cycle.</strong> Managing the product <strong>roadmap & strategy.</strong> Writing use cases and flows. <br /> Polishing the <strong>UI/UX</strong> based on various feedback.</Typography></li><br/>
               <li> <Typography variant="body1" > Improving delivery time and features impact by utilizing <strong>lean & agile</strong> methods. <br/> Managing sprints & backlog using Trello and Monday. </Typography>  </li> <br/>
-              <li> <Typography variant="body1" > <strong>Web-app development</strong> from scratch to production: React, Redux, Node, Firebase, Firestore. </Typography> </li>
             </ul>
         </CardContent>
       </Card>
@@ -97,36 +97,54 @@ export default function SimpleCard() {
         <br/>
         <Card className={classes.card}>
           <CardContent>
+
             <Typography variant="h5" component="h3">
               Recent Coding Projects
             </Typography>
-              <ul>
+              
                 <Typography variant="body1" component="p">
                   <br/>
 
                   <b>Description</b><br/>
-                  NLP course code-along. 
-                  SMS spam classifier using random forest.<br/><br/>
+
+                  Docker & Kubernetes practice, deployed to GKE with TravisCI. <br/>
+                  The app calculates the value of a Fibonacci value given an index.
+                  <br/><br/>
 
                   <div style={{textAlign: 'left'}}>
-                  <b>Stack</b> <br/> Python, NLTK, Matplotlib, Pandas, Sklearn<br/>
 
-                    <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/Spam-Classifier/blob/master/Spam_Classifier%20.ipynb', '_blank');}}>
+                    <b>Stack</b> <br/> Docker, Kubernetes, MiniKube, Google Cloud, TravisCI, Redis, Postgres, Express <br/>
+
+                    <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/fib_docker_kubernetes', '_blank');}}>
                       <GitHubIcon/>
                     </IconButton>
-                    
-                    <hr/>
                   </div>
+                  <hr/>
 
                   <b>Description</b><br/>
-                  Text-to-image webapp using NLP for keywords extraction & APIs to image search engines. <br/><br/>
+
+                    NLP course code-along. 
+                    SMS spam classifier using random forest.<br/><br/>
+
+                    <div style={{textAlign: 'left'}}>
+
+                      <b>Stack</b> <br/> Python, NLTK, Matplotlib, Pandas, Sklearn<br/>
+
+                      <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/Spam-Classifier/blob/master/Spam_Classifier%20.ipynb', '_blank');}}>
+                        <GitHubIcon/>
+                      </IconButton>
+                    </div>
+                    <hr/>
+
+                  <b>Description</b><br/>
+                    Text-to-image webapp using NLP for keywords extraction & APIs to image search engines. <br/><br/>
 
                       <div style={{textAlign: 'left'}}>
-                        <b>Front</b> <br/> React + SemanticUI <br/>
-                        <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/final_proj_front', '_blank');}}>
-                          <GitHubIcon/>
-                        </IconButton>
-                      <br/><br/>
+                          <b>Front</b> <br/> React + SemanticUI <br/>
+                          <IconButton size="small" onClick={() => {window.open('https://github.com/RazGvili/final_proj_front', '_blank');}}>
+                            <GitHubIcon/>
+                          </IconButton>
+                        <br/><br/>
                       </div>
 
                       <div style={{textAlign: 'left'}}>
@@ -150,7 +168,7 @@ export default function SimpleCard() {
                         </div>
 
                 </Typography>
-            </ul>     
+             
           </CardContent>
         </Card>
         <br/>

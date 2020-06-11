@@ -41,7 +41,7 @@ class HomeIndex extends React.Component {
                                         <ul>
                                             <li>Enthusiastic about adding value with cutting-edge tech @ scale</li>
                                             <li>Learning as a hobby, passionately curious person</li>
-                                            <li> Collaborative, ppl person, user-centric</li>
+                                            <li>Team player, happy, fun to be with</li>
                                         </ul>
 
                                         Looking for a new env to join the "Idea, Validate, implement, Optimize" cycle :)  <br/>
